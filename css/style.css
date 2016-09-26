@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	height: 100%;
+	min-height: 100%;
+}
+
+body{
+	background-color:#fff;
+	margin: 0;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	    position: relative;
+    padding-bottom: 100px;
+        min-height: 100%;
+}
+div.wrapper{
+width:100%;
+	
+}
+#header{
+	background:#f1f1f1;
+}
+#clockbox{
+	font-size:25px;
+}
+
+h1,h2{
+	color:#663300;
+}
+table.main-table{
+	width:100%;
+	}
+	div.clothing-main{
+		height:400px;
+		width:100%;
+	
+		background:url(../images/clothing-main.jpg) center center no-repeat;
+		background-size:cover ;
+	}
+table.content-table,#top-bar-table,#header-table{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}	
+#top-bar-table{
+	color:white;
+}	
+
+	.top-bar{
+	background:sandybrown;
+	}
+	
+	ul.nav{
+		
+	}
+	
+	ul.nav > .menu-item{
+	display:inline-block;
+	margin:3px;
+		}
+	
+	ul.nav > .menu-item::before{
+	content:"|";
+	margin-right:4px;	
+	}
+	ul.nav > .menu-item:first-child::before{
+	content:"";	
+	}
+ul.nav > .menu-item > a{
+	color:#000;
+	text-decoration:none;
+	transition:linear color .5s;
+}
+
+ul.nav > .menu-item > a.active{
+	color:orange;
+	
+}
+ul.nav > .menu-item > a:hover{
+	color:Orange;
+	transition:linear color .7s;
+}
+
+ul.side-nav{
+padding:0;
+list-style:none;
+background-color:#f1f1f1;
+}
+
+ul.side-nav > li{
+border-bottom:1px solid #fff;
+padding:10px;	
+}
+.form-item > label{
+width:150px;
+display:inline-block;
+vertical-align:top;
+}
+.form-item{
+margin:15px 0;	
+}
+.form-item textarea, .form-item .form-text, .form-item select {
+    background-image: -moz-linear-gradient(center top,#EEEEEE 0%,#FFFFFF 100%);
+    border: 1px solid #E5E5E5;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 3px grey;
+}
+
+
+input[type="submit"]{
+background:#052d51;	
+border:0;
+border-radius:5px;
+padding:5px;
+color:#fff;
+transition:linear background .5s;
+}
+input[type="submit"]:hover{
+background:orange;	
+transition:linear background .7s;
+
+}
+td.product-block{
+width:20%;	
+}
+
+td.product-block > p > a{
+text-decoration:none;
+color:#000;
+transition:linear color .5s;
+}
+
+	td.product-block > p > a:hover{
+    color:Orange;
+	transition:linear color .7s;
+	}
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0pt;
+	left: 0;
+	padding: 1rem;
+	background-color: sandybrown;
+	text-align: center;
+	padding-left: 5px;
+	padding-top:10px;
+	height: 60px;
+}
+.clothing-table{
+	margin-top:10%;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px gray;
+	border-collapse: collapse;
+}
+.clothing-table > td{
+	padding: 10px;
+}
+.clothing-cell {
+	padding: 10px;
+}
+#clock{
+	position: absolute;
+	right:0;
+}
+
+a {
+	text-decoration:none;
+}
+
+.alert {
+	color:red;
+}
